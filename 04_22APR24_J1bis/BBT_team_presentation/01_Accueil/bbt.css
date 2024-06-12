@@ -1,0 +1,28 @@
+ body{
+    background-color:rgb(243, 241, 127);
+  }
+  
+  h1{
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
+ 
+ 
+  h2{
+    color:darkgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
+  
+  .vers_nos_tetes{
+    align-self: baseline;
+    text-align: center;
+    text-decoration: none;
+   }
+ 
+ 
+ 
+ 
+ 
+ 

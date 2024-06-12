@@ -1,0 +1,139 @@
+body{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #F2A702;
+    /*line-height: 1vw;*/
+}
+
+h1{
+    font-size: 3vw;
+    font-weight:bolder;
+    color: #E62D3A;
+    text-align: center;
+}
+
+h2{
+    font-size: 2vw;
+    font-weight: 600;
+    color: brown; 
+    text-align:center;
+}
+
+h3{
+    font-weight: 500;
+    color: darkblue;
+}
+
+.dates{
+    font-weight: 400;
+    color: brown;
+}
+
+.cadrage_photo{
+    text-align:left;
+    padding-inline-start: 25vw;
+    display: flex;
+    justify-content: row;
+}
+
+.Photo_Sexy{
+    width: 10vw;
+    border-style:double;
+    color: blueviolet;
+    border-radius: 8vw;
+}
+
+.text_color_font{
+    color: #32550e;
+}
+
+.formation{
+    font-size: 2vw;
+    font-weight: 600;
+    color: rgb(25, 10, 109);
+    border-style: dotted;
+    border-radius: 8vw;
+    text-align: center;
+    margin-top: 5vw;
+    margin-left: 4vw;
+    height: 3vw;
+    animation-name: AnimBouton;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    width: 14vw;
+}
+
+.formation:hover{
+    animation-play-state: paused;
+    width: 15vw;
+}
+
+@keyframes AnimBouton {
+    0%,10% {
+        background-color: rgb(113, 91, 233);
+        width: 14vw;
+    }
+    20% {
+        background-color: rgb(255, 0, 34);
+    }
+    30% {
+        background-color: rgb(0, 128, 128);
+    }
+    40% {
+        background-color: rgb(255, 187, 0);
+    }
+    50% {
+        background-color: rgb(153, 0, 153);
+        width: 18vw;
+    }
+    60% {
+        background-color: rgb(0, 0, 255);
+    }
+    70% {
+        background-color: rgb(255, 255, 0);
+    }
+    80% {
+        background-color: rgb(0, 255, 0);
+    }
+    90% {
+        background-color: rgb(86, 201, 255);
+        width: 14vw;
+    }
+}
+
+.titre_secteur, .les_2secteurs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    color: rgb(25, 10, 109);
+}
+
+.numerique{
+    border-style: dotted;
+    border-radius: 8vw;
+    
+    margin-right: 8vw;
+    width: 35VW;
+    padding-left: 4vw;
+    
+    background-color:#E6BF5A;
+}
+
+.tourisme{
+    border-style: dotted;
+    border-radius: 8vw;
+   
+    margin-right: 4vw;
+    padding-left: 4vw;
+    width: 38VW;
+    background-color:#E6BF5A;
+}
+
+footer{
+    color: #E62D3A;
+    font-size: 2vw;
+}
+a:hover, a:enabled, a:active, a:link, a:visited{
+    text-decoration: none;
+}

@@ -1,0 +1,73 @@
+body{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:  #F2A702;
+}
+
+h1{
+    font-size: 3vw;
+    font-weight:bolder;
+    color: #E62D3A;
+    text-align: center;
+}
+h2{
+    font-size: 2vw;
+    font-weight: 600;
+    color: brown; 
+    text-align:center;
+    line-height: 8vw;
+}
+
+.competences{
+    display: inline-flex;
+    align-items: center;
+    
+   /* margin-right: 8vw;*/
+    width: 55VW;
+    padding-left: 2vw;
+    margin-left: 20vw;
+    background-color:#E6BF5A;
+}
+
+.descriptif{
+    display: flex;
+    align-content: center;
+    
+   /* margin-right: 8vw;*/
+    width: 35VW;
+    padding-left: 4vw;
+    margin-left: 28vw;
+    background-color:#E6BF5A;
+}
+
+.langues{
+    display: flex;
+    align-content: center;
+    
+   /* margin-right: 8vw;*/
+    width: 29VW;
+    padding-left:4vw;
+    margin-left: 32vw;
+    background-color:#E6BF5A;
+}
+
+.outils{
+    display: inline-flex;
+    align-content: center;
+    justify-content: space-around;
+    
+    width: 45VW;
+    padding-left: 2vw;
+    margin-left: 25vw;
+    background-color:#E6BF5A;
+}
+
+.competences, .descriptif, .langues, .outils{
+    color: #32550e;
+    border-style: dotted;
+    border-radius: 8vw;
+}
+
+footer{
+    color: #E62D3A;
+    font-size: 2vw;
+}

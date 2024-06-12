@@ -1,0 +1,44 @@
+ body{
+   background-color:rgb(243, 241, 127);
+ }
+ 
+ h1{
+   text-align: center;
+ }
+
+ h2{
+   text-align: center;
+ }
+
+ .portrait{
+    width: 100px;
+    padding: 10px;
+
+ }
+
+ h1{
+   color:black;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ h2{
+   color:darkgray;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ main{
+   display:flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content:first baseline;
+ }
+
+ section{
+   align-self: baseline;
+   text-align: center;
+   text-decoration: none;
+ }
+
+ .fin{
+   display: inline;
+ }

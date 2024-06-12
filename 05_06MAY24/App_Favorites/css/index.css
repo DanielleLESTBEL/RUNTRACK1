@@ -1,0 +1,31 @@
+header{
+    font-size: 2vw;
+    color: blueviolet;
+
+}
+
+body{
+    background-color: rgb(189, 248, 93);
+    text-align: center;
+    font-size: 3vw;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #05ed08;
+}
+.title_accueil{
+    font-size: 8vw;
+}
+.logo_img{
+    width: 20vw;
+    height: 20vw;
+}
+
+.accueil_gif:hover{
+    background-image: url("../assets/accueil_neurone.gif");
+    background-size: cover;
+    font-size: 3vw;
+}
+
+footer{
+    font-size: 2vw;
+    color: blueviolet;
+}
